@@ -6,7 +6,7 @@ runs:
     - name: Add Pages files
       run: |
         cd /tmp
-        git clone --quiet https://github.com/WmeLuna/Pages-Workflow
+        git clone --quiet https://github.com/fanoa-capstone/Pages-Workflow
         mv -n /tmp/Pages-Workflow/page/* ${GITHUB_WORKSPACE}/
         cd ${GITHUB_WORKSPACE}/
       shell: bash
